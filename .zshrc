@@ -1,4 +1,4 @@
-PATH="/usr/local/share/pypy/:/usr/local/share/python/:$(brew --prefix)/bin:$(brew --prefix coreutils)/libexec/gnubin:$(brew --prefix)/Cellar/ruby/1.9.3-p362/bin:/usr/local/opt/ruby/bin:/usr/local/share/npm/bin:$PATH"
+source $HOME/.path
 
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
