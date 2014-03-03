@@ -1,5 +1,3 @@
-source $HOME/.path
-
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
@@ -34,14 +32,8 @@ ZSH_THEME="af-magic"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx virtualenvwrapper python ruby vi-mode)
+plugins=(git osx virtualenv virtualenvwrapper python ruby vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Devel
-
-source $HOME/.env
-
-eval "$(hub alias -s)"
